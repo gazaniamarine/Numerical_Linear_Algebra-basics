@@ -1,7 +1,19 @@
 # 09 — Numerical Stability
 
-## Topics to implement
-- Floating point representation
-- Condition number
-- Backward/forward error
-- Stability of algorithms (e.g., naive vs pivoted elimination)
+Analyzing the effects of finite precision and ill-conditioning.
+
+## 📋 Contents
+
+- **Machine Epsilon**: Understanding floating-point precision limits.
+- **Condition Number**: Quantifying how sensitive a function is to input perturbations.
+- **Perturbation Analysis**: Practical experiments measuring error propagation in linear solvers (using Hilbert matrices).
+
+## 🚀 Examples
+
+- `stability_example.py`: Investigating the sensitivity of Hilbert matrices to small RHS perturbations.
+
+## 🧪 Testing
+
+```bash
+pytest tests/
+```

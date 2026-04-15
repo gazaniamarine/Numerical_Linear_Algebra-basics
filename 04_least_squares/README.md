@@ -1,10 +1,20 @@
 # 04 — Least Squares
 
-Implementing Least Squares methods for curve fitting and data approximation.
+Solving overdetermined systems and curve fitting using orthogonalization.
 
-## Topics to implement
-- Normal Equations ($A^T A x = A^T b$) using Cholesky
-- QR Factorization ($A = QR$)
-- Least Squares via QR ($Rx = Q^T b$)
-- Gram-Schmidt orthogonalization (Classical and Modified)
-- Linear, Polynomial, and Exponential curve fitting
+## 📋 Contents
+
+- **Normal Equations**: The traditional $A^T A x = A^T b$ approach.
+- **QR Decomposition**: More stable solving using Gram-Schmidt or Householder (MGS implemented).
+- **Linear Regression**: Practical application of least squares for data fitting.
+
+## 🚀 Examples
+
+- `qr_example.py`: Using QR decomposition to solve least squares problems.
+- `exponential_fitting.py`: Fitting non-linear data using linearized least squares.
+
+## 🧪 Testing
+
+```bash
+pytest tests/
+```

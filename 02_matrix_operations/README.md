@@ -1,26 +1,22 @@
-# Unit 02: Matrix Operations
+# 02 — Matrix Operations
 
-This module contains fundamental operations for matrices implemented entirely from scratch in Python.
+Standard matrix operations and multiplication algorithms built from the ground up.
 
-## Structure
+## 📋 Contents
 
-*   `src/`: Core implementation.
-    *   `basic_ops.py`: Functions for matrix addition, subtraction, trace, transpose, and scalar multiplication.
-    *   `multiplication.py`: Functions for matrix-vector and matrix-matrix multiplications.
-*   `tests/`: Verification scripts ensuring exact parity with established `numpy` behavior.
-*   `examples/`: Examples on how to use standard matrix operations programmatically.
+- **Basic Operations**: Matrix addition, subtraction, trace, and transpose.
+- **Multiplication**: Optimized matrix-vector and matrix-matrix multiplication algorithms.
+- **Efficiency**: Basic implementations focusing on code clarity and algorithmic structure.
 
-## Verification
+## 🚀 Examples
 
-To verify the from-scratch implementations against NumPy:
+The `examples/` directory demonstrates library usage:
+- `multiplication_example.py`: Benchmarking custom multiplication against standard loops.
+- `basic_ops_example.py`: Basic matrix manipulations.
 
+## 🧪 Testing
+
+Verify correctness against NumPy benchmarks:
 ```bash
-python -m pytest tests/
-```
-
-Or you can run the files individually:
-
-```bash
-python tests/test_basic_ops.py
-python tests/test_multiplication.py
+pytest tests/
 ```
