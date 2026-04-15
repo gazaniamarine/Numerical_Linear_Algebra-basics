@@ -10,7 +10,7 @@ from src.ldv_decomposition import LDV
 from src.ldlt_decomposition import LDLT
 
 def run_example():
-    print("--- LDV and LDLT Decompositions Demo ---")
+    print("--- LDV and LDLT Decompositions Example ---")
     
     # 1. LDV Decomposition (A = LDV)
     # A generic square matrix

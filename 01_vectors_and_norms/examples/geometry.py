@@ -1,6 +1,6 @@
 """
 Vector Geometry
-Demonstrates angles, projections, and decompositions.
+Examples angles, projections, and decompositions.
 """
 import sys
 import os
@@ -11,7 +11,7 @@ sys.path.append(os.path.join(os.path.dirname(__file__), '..'))
 from src import geometry, basic_ops, norms
 
 def run_example():
-    print("--- 2D Geometry Demo ---")
+    print("--- 2D Geometry Example ---")
     u = [1.0, 0.0]
     v = [1.0, 1.0]
     print(f"  Vector u: {u}")
@@ -40,7 +40,7 @@ def run_example():
     dot_perp_u = basic_ops.dot_product(v_perp, u)
     print(f"    Verify (v_perp · u): {dot_perp_u:.12f} (should be approx 0)")
 
-    print("\n--- 3D Geometry Demo ---")
+    print("\n--- 3D Geometry Example ---")
     a = [3, 4, 12]
     b = [1, 2, 2]
     print(f"  Vector a: {a} (norm: {norms.l2(a):.2f})")

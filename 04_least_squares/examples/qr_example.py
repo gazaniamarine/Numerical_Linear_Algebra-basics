@@ -1,4 +1,4 @@
-# Least Squares — QR Solver Demo
+# Least Squares — QR Solver Example
 import numpy as np
 import sys
 import os

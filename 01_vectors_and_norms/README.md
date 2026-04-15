@@ -16,9 +16,9 @@ Modular implementation of fundamental vector operations and norms.
 │   ├── test_norms.py
 │   └── test_ortho.py
 └── examples/                   # Practical usage of src/ modules
-    ├── basic_ops_demo.py       # Show add, sub, dot, cross
-    ├── norms_demo.py           # Show all norms in action
-    ├── gram_schmidt_demo.py    # Show GS orthonormalization
+    ├── basic_ops_example.py       # Show add, sub, dot, cross
+    ├── norms_example.py           # Show all norms in action
+    ├── gram_schmidt_example.py    # Show GS orthonormalization
     ├── unit_ball_plot.py       # Plot ball boundaries for L1/L2/Linf
     ├── cauchy_schwarz.py       # Verifying CS inequality
     └── nearest_neighbor.py     # NN under different norms
@@ -34,16 +34,16 @@ python tests/test_norms.py
 python tests/test_ortho.py
 ```
 
-### 2. Demos (See outputs)
+### 2. Examples (See outputs)
 See how the code works with numbers.
 ```bash
-python examples/basic_ops_demo.py
-python examples/norms_demo.py
-python examples/gram_schmidt_demo.py
+python examples/basic_ops_example.py
+python examples/norms_example.py
+python examples/gram_schmidt_example.py
 ```
 
 ### 3. Visuals (Charts/Applications)
-More theory-heavy/visual demonstrations.
+More theory-heavy/visual examples.
 ```bash
 python examples/unit_ball_plot.py
 python examples/cauchy_schwarz.py

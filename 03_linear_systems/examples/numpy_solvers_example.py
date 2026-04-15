@@ -28,7 +28,7 @@ def solve_perf_test(sz=2000):
     print(f"Speedup for triangular system: {t_full / t_tri:.2f}x")
 
 def run_example():
-    print("--- NumPy Solvers Performance Demo ---")
+    print("--- NumPy Solvers Performance Example ---")
     
     # 1. Basic Small Test
     A_small = np.array([[3, 1], [1, 2]], dtype=float)

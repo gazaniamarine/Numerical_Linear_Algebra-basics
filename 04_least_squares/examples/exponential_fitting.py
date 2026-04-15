@@ -15,7 +15,7 @@ def run_example():
     output_dir = os.path.join(script_dir, "..", "outputs", "exponential_fitting")
     os.makedirs(output_dir, exist_ok=True)
     
-    # Generate Synthetic Data for demonstration
+    # Generate Synthetic Data for example
     np.random.seed(42)
     x = np.linspace(0, 5, 50)
     a_true, b_true = 3.0, -0.5

@@ -10,12 +10,12 @@ Learning and implementing fundamental numerical linear algebra algorithms from s
 | 02 | Matrix Operations | ✅ |
 | 03 | Linear Systems (Gaussian Elimination, LU) | ✅ |
 | 04 | Least Squares | ✅ |
-| 05 | Eigenvalues | 🔲 |
-| 06 | SVD | 🔲 |
-| 07 | Iterative Methods | 🔲 |
-| 08 | Sparse Matrices | 🔲 |
-| 09 | Numerical Stability | 🔲 |
-| 10 | Applications | 🔲 |
+| 05 | Eigenvalues | ✅ |
+| 06 | SVD | ✅ |
+| 07 | Iterative Methods | ✅ |
+| 08 | Sparse Matrices | ✅ |
+| 09 | Numerical Stability | ✅ |
+| 10 | Applications | ✅ |
 
 ## Setup
 

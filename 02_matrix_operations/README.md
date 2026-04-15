@@ -8,7 +8,7 @@ This module contains fundamental operations for matrices implemented entirely fr
     *   `basic_ops.py`: Functions for matrix addition, subtraction, trace, transpose, and scalar multiplication.
     *   `multiplication.py`: Functions for matrix-vector and matrix-matrix multiplications.
 *   `tests/`: Verification scripts ensuring exact parity with established `numpy` behavior.
-*   `examples/`: Demonstrations on how to use standard matrix operations programmatically.
+*   `examples/`: Examples on how to use standard matrix operations programmatically.
 
 ## Verification
 

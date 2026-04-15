@@ -26,16 +26,16 @@ def find_nearest_neighbor(query, points, norm_type='l2'):
             
     return best_idx, best_dist
 
-def run_demo():
+def run_example():
     points = [
         [1, 1], [0, 1], [-1, 2], [2, 0.5], [1.5, 1.5]
     ]
     query = [0, 0]
     
-    print("--- Nearest Neighbor Demo (Unit: 01) ---")
+    print("--- Nearest Neighbor Example (Unit: 01) ---")
     for nt in ['l1', 'l2', 'linf']:
         idx, dist = find_nearest_neighbor(query, points, nt)
         print(f"Norm {nt.upper():<4}: Nearest point is index {idx} (distance {dist:.4f})")
 
 if __name__ == "__main__":
-    run_demo()
+    run_example()

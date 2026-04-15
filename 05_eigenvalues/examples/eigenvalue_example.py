@@ -6,8 +6,8 @@ sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 from src.power_method import power_iteration, inverse_iteration
 from src.qr_algorithm import qr_algorithm
 
-def run_demo():
-    print("--- Eigenvalue Algorithms Demo ---")
+def run_example():
+    print("--- Eigenvalue Algorithms Example ---")
     
     # Create an symmetric positive-definite matrix for nice real eigenvalues
     A = np.array([
@@ -40,4 +40,4 @@ def run_demo():
 
 if __name__ == "__main__":
     np.random.seed(42)
-    run_demo()
+    run_example()

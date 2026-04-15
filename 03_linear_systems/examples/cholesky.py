@@ -9,7 +9,7 @@ sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 from src.cholesky_decomposition import cholesky, solve_system_cholesky
 
 def run_example():
-    print("--- Cholesky Decomposition Demo ---")
+    print("--- Cholesky Decomposition Example ---")
     
     # Square Symmetric Positive Definite Matrix A
     B = np.array([[1, 2, 3], [0, 4, 5], [0, 0, 6]], dtype=float)

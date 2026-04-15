@@ -9,7 +9,7 @@ sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 from src.lu_decomposition import LU, solve_system_lu
 
 def run_example():
-    print("--- LU Decomposition Demo ---")
+    print("--- LU Decomposition Example ---")
     
     # Square matrix A
     A = np.array([

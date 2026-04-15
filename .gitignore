@@ -1,5 +1,4 @@
 # Byte-compiled / optimized / DLL files
-__pycache__/
 *.py[cod]
 *$py.class
 
@@ -38,9 +37,10 @@ coverage.xml
 *.cover
 *.py,cover
 .hypothesis/
-.pytest_cache/
+**/.pytest_cache/
 cover/
-.benchmarks/
+**/.benchmarks/
+**/__pycache__/
 
 # Environments
 .env
@@ -52,8 +52,7 @@ env.bak/
 venv.bak/
 
 # Outputs and plots
-03_linear_systems/outputs/
-04_least_squares/outputs/
+**/outputs/
 *.png
 *.jpg
 
@@ -65,3 +64,18 @@ venv.bak/
 .Trashes
 ehthumbs.db
 Thumbs.db
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Jupyter
+.ipynb_checkpoints/
+checkpoint/
+
+# Mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
